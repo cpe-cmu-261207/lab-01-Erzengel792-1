@@ -19,12 +19,23 @@
   </head>
 
   <body style="background-color: lightblue">
-    <!--Profile picture-->
     <div class="mx-auto" style="max-width: 800px">
       <div
         class="vstack gap-2 border border-5 rounded-4 p-2"
         style="background-image: url('image_lab/background-profile.jpg')"
       >
+        <!--Navbar-->
+        <div
+          class="d-none d-sm-flex mx-auto align-items-center"
+          style="max-width: 500px"
+        >
+          <div class="mx-auto hstack gap-5 fw-bolder">
+            <span> <a href="Home.html">Home</a></span>
+            <span> <a href="Experience.html">Experience</a></span>
+            <span> <a href="Contact.html">Contact</a></span>
+          </div>
+        </div>
+        <!--Profile picture-->
         <div class="mx-auto">
           <img
             src="image_lab/MyPicture.jpg"
@@ -33,15 +44,30 @@
             style="object-fit: cover"
             class="rounded-circle"
           />
-          <h5>Tanadol Takunkayan</h5>
+          <h5 class="fw-bold">Tanadol Takunkayan</h5>
         </div>
       </div>
+      <br />
       <!--Profile Detail-->
       <div
-        class="vstack gap-2 border border-5 rounded-4 p-2"
+        class="vstack gap-2 border border-5 rounded-4 p-2 align-items-center"
         style="background-color: wheat"
       >
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam natus
+          quaerat tempora velit aliquid repudiandae accusantium reprehenderit
+          architecto, fuga nesciunt perferendis a, rem aliquam aperiam eligendi
+          numquam incidunt quod explicabo!
+        </p>
+      </div>
+      <br />
+      <!--My Skills-->
+      <div
+        class="vstack gap-2 border border-5 rounded-4 p-2 align-items-center"
+        style="background-color: wheat"
+      >
+        <h5 class="fw-bold">My Skills</h4>
+          
       </div>
     </div>
   </body>
